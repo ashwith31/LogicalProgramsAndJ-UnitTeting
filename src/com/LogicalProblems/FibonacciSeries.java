@@ -24,10 +24,9 @@ public class FibonacciSeries {
 		{
 			System.out.print(j+" ");
 		}
+		sc.close();
 	}
 	public static void main(String[] args) {
-
 		getSeries();
 	}
-
 }

@@ -1,11 +1,14 @@
 package com.LogicalProblems;
-
 import java.util.Scanner;
-
+/*
+ *  Program to check if a number is Perfect or not. 
+ * @author Ashwith
+ */
 public class PerfectNumbers {
-
-	public static void main(String[] args) {
-
+	/*
+	 * This method checks if the number is perfect or not and prints the output.
+	 */
+	public static void checkPerfect() {
 		System.out.println("Enter a number to be checked if its perfect or not");
 		Scanner sc =new Scanner(System.in);
 		int value=sc.nextInt();
@@ -28,7 +31,11 @@ public class PerfectNumbers {
 		{
 			System.out.println("It is not a Perfect Number");
 		}
-		
+		sc.close();
+	}
+
+	public static void main(String[] args) {
+		checkPerfect();
 	}
 
 }
